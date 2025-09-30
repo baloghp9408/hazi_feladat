@@ -7,9 +7,9 @@ body {
 }
 
 .container {
-  width: 80%;
+  width: 60%;
   margin: auto;
-  background: #cfa34f;
+  background: #f3d27e;
   padding: 20px;
   border: 2px solid #cfa34f;
 }
@@ -31,30 +31,24 @@ header h2 {
   margin-bottom: 20px;
 }
 
-.content {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin-bottom: 40px;
+/* körbefuttatás bal oldali képnél */
+.float-left {
+  float: left;
+  margin: 0 15px 15px 0;
+  width: 40%;
+  border: 2px solid #cfa34f;
 }
 
-.content .text {
-  width: 65%;
-  padding-right: 20px;
-  text-align: justify;
-}
-
-.content .image {
-  width: 35%;
-}
-
-.content img {
-  width: 100%;
+/* körbefuttatás jobb oldali képnél */
+.float-right {
+  float: right;
+  margin: 0 0 15px 15px;
+  width: 40%;
   border: 2px solid #cfa34f;
 }
 
 .temple h2 {
-  text-align: center;
+  text-align: justify;
   color: #a11c1c;
   font-size: 26px;
   margin-bottom: 20px;
